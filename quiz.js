@@ -3499,6 +3499,10 @@ var quiz = [
     "answer": "red",
     "question": "Cada um dos principais membros da tripulação do Shanks são do mesmo oceano."
   }
+  {
+    "answer": "red",
+    "question": "[GLA] Loguetown é recomendada para jogadores do level 56 a 70 no minimapa do jogo."
+  }
 ].map(q => {
   return { answer: q.answer, question: q.question.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "") }
 })
